@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[2188],{9174:o=>{o.exports=JSON.parse('{"label":"baeda-polito","permalink":"/polito-bos-docs/blog/tags/baeda-polito","allTagsPath":"/polito-bos-docs/blog/tags","count":1}')}}]);

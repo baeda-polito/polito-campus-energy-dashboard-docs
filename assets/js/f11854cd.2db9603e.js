@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[4781],{2512:s=>{s.exports=JSON.parse('{"label":"hola","permalink":"/polito-bos-docs/blog/tags/hola","allTagsPath":"/polito-bos-docs/blog/tags","count":1}')}}]);
