@@ -1,41 +1,42 @@
-# Website
+# PolitoBOS documentation
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### Installation
+## Local Development
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
+```bash
+$ npm run start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+This command starts a local development server and opens up a browser window. Most changes are reflected live without
+having to restart the server.
 
-### Build
+## Build
 
-```
+```bash
 $ npm run build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+This command generates static content into the `build` directory and can be served using any static contents hosting
+service.
 
-### Deployment
+## Deployment with Github Actions and Github Pages
 
-Using SSH:
+This repository is an example of deploying a Docusaurus website to GitHub Pages using GitHub Actions.
 
-```
-$ USE_SSH=true yarn deploy
-```
+### Configuring the GitHub repository
 
-Not using SSH:
+It uses the _new_ GitHub Pages experience with GitHub Actions to deploy the website.
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+* Enable this experience in `GitHub.com -> Repository -> Settings -> Pages -> Build and deployment -> Source` by
+  selecting `GitHub Actions` instead of the legacy `Deploy from a branch` option.
+* In `GitHub.com -> Repository -> Settings -> Environments` you should see a GitHub Environment named `github-pages`.
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+### Adding a GitHub Actions deployment workflow
+
+Use a GitHub Actions workflow template for GitHub Pages from
+the [`actions/starter-workflows`](https://github.com/actions/starter-workflows) repository. Place it
+in `.github/workflows/<workflow-name>.yml`.
+Add steps for building the website before the GitHub Pages actions are executed and specify the `path` to
+the `actions/upload-pages-artifact`. The deployment action was adapted
+from [https://github.com/LayZeeDK/github-pages-docusaurus ](https://github.com/LayZeeDK/github-pages-docusaurus)

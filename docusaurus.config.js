@@ -100,11 +100,7 @@ const config = {
                         items: [
                             {
                                 label: 'Website',
-                                href: 'https://twitter.com/docusaurus',
-                            },
-                            {
-                                label: 'LinkedIn',
-                                href: 'https://twitter.com/docusaurus',
+                                href: 'http://www.baeda.polito.it/',
                             },
                         ],
                     },
