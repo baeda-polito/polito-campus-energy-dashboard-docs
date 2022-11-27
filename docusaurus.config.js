@@ -7,11 +7,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // GitHub pages deployment config.
 // If you aren't using GitHub pages, you don't need these.
 const organizationName = 'baeda-polito' // Usually your GitHub org/user name.
-const projectName = 'polito-bos-docs' // Usually your repo name.
+const projectName = 'polito-campus-energy-dashboard-docs' // Usually your repo name.
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'PolitoBOS',
+    title: 'Polito Campus Energy Dashboard',
     tagline: 'A Building Operating System for Politecnico di Torino',
     url: `https://${organizationName}.github.io`,
     baseUrl: `/${projectName}/`,
@@ -60,9 +60,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             navbar: {
-                title: 'PolitoBOS',
+                title: 'Polito Campus Energy Dashboard',
                 logo: {
-                    alt: 'PolitoBOS Logo',
+                    alt: 'Polito Campus Energy Dashboard Logo',
                     src: 'img/logo.svg',
                 },
                 items: [
