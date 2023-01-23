@@ -4,6 +4,12 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 ## Local Development
 
+Install the dependencies
+```bash
+$ npm install
+```
+
+Run locally the website
 ```bash
 $ npm run start
 ```
