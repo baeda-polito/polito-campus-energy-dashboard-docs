@@ -4,29 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
+    title: 'Measure',
+    Svg: require('@site/static/img/1.svg').default,
+    description: (
+      <>
+        Measuring energy consumption accurately is crucial for the successful management of resources and the reduction of waste.
+      </>
+    ),
+  },
+  {
+    title: 'Track',
+    Svg: require('@site/static/img/2.svg').default,
+    description: (
+      <>
+        By tracking energy consumption, organizations can identify areas where energy is being wasted and make adjustments to improve efficiency.
+      </>
+    ),
+  },
+  {
     title: 'Act',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/3.svg').default,
     description: (
       <>
-        Take informed and responsible choices toward the implementation of the suitable actions to correct faults, create awareness in energy usage and measure performances
-      </>
-    ),
-  },
-  {
-    title: 'Monitor',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        This project allows different stakeholders to get insights on energy usage, infrastructure monitoring and data acquisition.
-      </>
-    ),
-  },
-  {
-    title: 'Open source',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Created, maintained and implemented by BAEDA Labs members and supporters.
+        Make informed decisions and act to optimize energy use, reduce costs, and promote sustainability.
       </>
     ),
   },
