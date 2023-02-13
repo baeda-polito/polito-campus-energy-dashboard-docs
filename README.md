@@ -46,3 +46,7 @@ in `.github/workflows/<workflow-name>.yml`.
 Add steps for building the website before the GitHub Pages actions are executed and specify the `path` to
 the `actions/upload-pages-artifact`. The deployment action was adapted
 from [https://github.com/LayZeeDK/github-pages-docusaurus ](https://github.com/LayZeeDK/github-pages-docusaurus)
+
+### Contacts and contributors
+
+Dr. Alfonso Capozzoli
