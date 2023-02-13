@@ -49,4 +49,4 @@ from [https://github.com/LayZeeDK/github-pages-docusaurus ](https://github.com/L
 
 ### Contacts and contributors
 
-Dr. Alfonso Capozzoli
+* Prof. [Alfonso Capozzoli](mailto:alfonso.capozzoli@polito.it), Coordinator of [BAEDA Lab](http://www.baeda.polito.it/), Politecnico di Torino, 
