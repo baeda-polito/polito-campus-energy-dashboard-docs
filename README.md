@@ -1,5 +1,9 @@
 # Polito Campus Energy Dashboard
 
+[![Lifecycle:
+deprecated](https://img.shields.io/badge/lifecycle-deprecated-red.svg)](https://www.tidyverse.org/lifecycle/#deprecated)
+<!-- badges: end -->
+
 As educational institutions, universities play a crucial role in shaping the future. They not only educate the next
 generation of leaders, but they also serve as models of sustainability and environmental responsibility. One of the ways
 in which universities can demonstrate their commitment to a cleaner future is through effective energy management on
